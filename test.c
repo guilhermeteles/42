@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int ft_memset()
 {
     printf("Hello world!");
     return 0;
