@@ -11,9 +11,17 @@
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
-# define LIBFT_H
+#define LIBFT_H
 
-# include <unistd.h>
+/* # include <unistd.h>*/
+
+typedef struct      s_list
+{
+    void            *content;
+    size_t          conten_size;
+    struct s_list   *next;
+}                   t_list;
+
 
 void	*ft_memset(void *str, int c, size_t n);
 
